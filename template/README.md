@@ -26,5 +26,5 @@ pip install -r requirements.txt
 ./docker-run.sh
 ```
 
-### Deployment
+## Deployment
 [Deploy to Kubernetes using Terraform](https://github.com/mingfang/terraform-k8s-modules/tree/master/examples/dagster)
