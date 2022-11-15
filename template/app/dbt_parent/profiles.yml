@@ -1,0 +1,6 @@
+dbt_parent:
+  target: local
+  outputs:
+    local:
+      type: duckdb
+      path: target/duckdb_dbt_parent

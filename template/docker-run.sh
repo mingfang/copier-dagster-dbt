@@ -1,0 +1,1 @@
+docker build . | tee /dev/tty |  grep "Successfully built" | sed 's/Successfully built //g' | xargs -I{} docker run -p 4000:4000 {}
